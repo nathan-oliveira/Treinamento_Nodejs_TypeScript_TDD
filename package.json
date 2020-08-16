@@ -1,0 +1,33 @@
+{
+  "name": "api-ts-node-jest",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan-oliveira/Treinamento_Nodejs_TypeScript_TDD.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Nathan Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan-oliveira/Treinamento_Nodejs_TypeScript_TDD/issues"
+  },
+  "homepage": "https://github.com/nathan-oliveira/Treinamento_Nodejs_TypeScript_TDD#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
